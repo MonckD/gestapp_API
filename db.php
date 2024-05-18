@@ -1,9 +1,9 @@
 <?php
 
     // Configuration de la base de données
-    $dsn = 'mysql:host=75.119.138.111;dbname=gestapp';
+    $dsn = 'mysql:host=;dbname=gestapp';
     $username = 'root';
-    $password = 'kirigaya@kazuto@lycoris@blue';
+    $password = '';
 
     try {
         $pdo = new PDO($dsn, $username, $password);
